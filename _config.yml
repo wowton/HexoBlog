@@ -73,8 +73,8 @@ deploy:
   branch: master
 - type: sftp
   host: localhost
-  user: root
-  pass: wangteng
+  user: 
+  pass: 
   remotePath: /var/www/html
   port: 22
 
