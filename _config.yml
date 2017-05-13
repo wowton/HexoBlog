@@ -75,7 +75,7 @@ deploy:
   host: localhost
   user: pi
   pass: wangteng
-  remotePath: /home/pi/Workspace/Hexo/
+  remotePath: /var/www/html
   port: 22
 
 jsonContent:
