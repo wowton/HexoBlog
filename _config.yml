@@ -73,7 +73,7 @@ deploy:
   branch: master
 - type: sftp
   host: localhost
-  user: pi
+  user: root
   pass: wangteng
   remotePath: /var/www/html
   port: 22
