@@ -68,9 +68,15 @@ theme: indigo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
- type: git
- repo: https://github.com/wowton/wowton.github.com.git
- branch: master
+- type: git
+  repo: https://github.com/wowton/wowton.github.com.git
+  branch: master
+- type: sftp
+  host: localhost
+  user: pi
+  pass: wangteng
+  remotePath: /home/pi/Workspace/Hexo/
+  port: 22
 
 jsonContent:
   meta: false
